@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 
 /* Components */
-import App from './App';
+import App from './containers/App/App';
 
 /* Scripts */
 import reportWebVitals from './reportWebVitals';
