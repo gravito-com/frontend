@@ -58,7 +58,13 @@ class Portfolio extends Component {
                     </span>
                     .
                   </p>
-                  <div>
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "center",
+                    }}
+                  >
                     <ul className="social-media">
                       <li className="linkedin-link">
                         <a
@@ -79,6 +85,14 @@ class Portfolio extends Component {
                         </a>
                       </li>
                     </ul>
+                    <a
+                      href="mailto:juan@gravito.me?subject=Quiero%20saber%20mas%20sobre%20los%20servicios%20que%20su%20agencia%20de%20desarrollo%20ofrece"
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{ color: "#af0000" }}
+                    >
+                      <b>juan@gravito.me</b>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -121,7 +135,7 @@ class Portfolio extends Component {
                     <div className="skill">API's</div>
                     <div className="skill">REST</div>
                     <p className="my-2">
-                      Module Bundler & JavaScript Transpiler
+                      Empaquetador de modulos & Transpilador de Javascript
                     </p>
                     <div className="skill">Webpack</div>
                     <div className="skill">Babel</div>
@@ -135,7 +149,8 @@ class Portfolio extends Component {
                     <div className="skill">Ubuntu</div>
                   </div>
                   <a data-scroll href="#works" className="btn">
-                    View my works <i className="fas fa-arrow-down"></i>
+                    Mira nuestros proyectos{" "}
+                    <i className="fas fa-arrow-down"></i>
                   </a>
                 </div>
               </div>
@@ -145,13 +160,13 @@ class Portfolio extends Component {
 
         <section className="works" id="works">
           <div className="container">
-            <h3>Works</h3>
-            <p>¡View my last works!</p>
+            <h3>Proyectos</h3>
             <p>
-              Projects with <i className="far fa-star"></i>, Are ready
+              ¡Mira alguno de nuestros mas viejos proyectos (los actuales se
+              subiran en cuestion de horas)!
             </p>
             <p className="bold">
-              My{" "}
+              Mi{" "}
               <a
                 href="https://github.com/Extibax"
                 target="_blank"
@@ -159,9 +174,9 @@ class Portfolio extends Component {
                 className="special-color"
                 style={{ textDecoration: "underline" }}
               >
-                GitHub Portfolio
+                Portafolio de GitHub
               </a>{" "}
-              will always be more updated
+              siempre estara mas actualizado
             </p>
 
             <div className="row">
@@ -181,17 +196,17 @@ class Portfolio extends Component {
                       <h5 className="card-title">
                         Eprezto <i className="far fa-star"></i>
                       </h5>
-                      <h6>Features:</h6>
+                      <h6>Destacar:</h6>
                       <div className="card-text mb-2">
-                        Online Insurance Broker, I was the main developer, in
-                        charge of the
+                        Broker de seguros online, Fui el desarrollador
+                        principal, a cargo de todo el sistema, tanto del{" "}
                         <span className="text-bold">
-                          Front-end and Back-end for 2 years and half (05/2019 -
-                          06/2021)
+                          frontend, backend y devops por 2 años y medio (05/2019
+                          - 06/2021)
                         </span>
                         .
                       </div>
-                      <h6>Technologies Used:</h6>
+                      <h6>Tecnologias Empleadas:</h6>
                       <div className="card-text features">
                         <div>React</div>
                         <div>NodeJs</div>
@@ -208,7 +223,7 @@ class Portfolio extends Component {
                         className="card-link"
                         rel="noreferrer"
                       >
-                        View Repository
+                        Mirar Repositorio
                       </a>
                       <a
                         href="https://eprezto.com/"
@@ -216,7 +231,7 @@ class Portfolio extends Component {
                         className="card-link"
                         rel="noreferrer"
                       >
-                        View Production Web
+                        Web de Produccion
                       </a>
                     </div>
                   </div>
@@ -230,13 +245,13 @@ class Portfolio extends Component {
                       <h5 className="card-title">
                         To Do List PHP <i className="far fa-star"></i>
                       </h5>
-                      <h6>Features:</h6>
+                      <h6>Destacar:</h6>
                       <div className="card-text mb-2">
-                        Login(Sign In, Sign Up), ;Create ToDo's, Create
-                        categories, View ToDo's, Filter ToDo's by category, Edit
-                        ToDo's, Delete ToDo's,
+                        Login(Inicio y registro de sesion), ;Crear Tareas, Crear
+                        categorias, View ToDo's, Filter ToDo's by category,
+                        Editar tares, Eliminar tareas,
                       </div>
-                      <h6>Technologies Used:</h6>
+                      <h6>Tecnologias Empleadas:</h6>
                       <div className="card-text features">
                         <div>HTML5</div>
                         <div>CSS3</div>
@@ -259,7 +274,7 @@ class Portfolio extends Component {
                         className="card-link"
                         rel="noreferrer"
                       >
-                        View Repository
+                        Mirar Repositorio
                       </a>
                       {/* <a
                     href="http://extibax.com/Projects/To-Do-Extibax.inc/"
@@ -279,16 +294,17 @@ class Portfolio extends Component {
                       <h5 className="card-title">
                         Portfolio CMS PHP <i className="far fa-star"></i>
                       </h5>
-                      <h6>Features:</h6>
+                      <h6>Destacar:</h6>
                       <div className="card-text mb-2">
-                        Login(Sign In, Sign Up), Edit text, links and other text
-                        elements, Update images & save in the Database
+                        Login(Inicio y registro de sesion), Editar texto, links
+                        y otros elementos de texto, Actualizar imagenes y
+                        guardarlas en la base de datos
                         <br />
                         <br />
-                        Show your professional info, And update your texts and
-                        images each time do you want.
+                        Muestra tu informacion profesional, y actualiza tus
+                        textos e imagenes cada vez que quieras.
                       </div>
-                      <h6>Technologies Used:</h6>
+                      <h6>Tecnologias Empleadas:</h6>
                       <div className="card-text features">
                         <div>HTML5</div>
                         <div>CSS3</div>
@@ -314,7 +330,7 @@ class Portfolio extends Component {
                         className="card-link"
                         rel="noreferrer"
                       >
-                        View Repository
+                        Mirar Repositorio
                       </a>
                     </div>
                   </div>
@@ -328,13 +344,15 @@ class Portfolio extends Component {
                       <h5 className="card-title">
                         Login NodeJs <i className="far fa-star"></i>
                       </h5>
-                      <h6>Features:</h6>
+                      <h6>Destacar:</h6>
                       <div className="card-text mb-2">
                         Create users and encrypt the password with bcryptjs,
                         Show flash messages, Login users and Close sessions,
-                        Deployed on Heroku
+                        Deployed on Heroku Crear usuarios y encripar su
+                        contraseña, mostrar mensajes flash, login y cierre de
+                        sesiones, lanzado en Heroku.
                       </div>
-                      <h6>Technologies Used:</h6>
+                      <h6>Tecnologias Empleadas:</h6>
                       <div className="card-text features">
                         <div>HTML5</div>
                         <div>CSS3</div>
@@ -359,7 +377,7 @@ class Portfolio extends Component {
                         className="card-link"
                         rel="noreferrer"
                       >
-                        View Repository
+                        Mirar Repositorio
                       </a>
                     </div>
                   </div>
@@ -373,12 +391,12 @@ class Portfolio extends Component {
                       <h5 className="card-title">
                         Profile Manager PHP <i className="far fa-star"></i>
                       </h5>
-                      <h6>Features:</h6>
+                      <h6>Destacar:</h6>
                       <div className="card-text mb-2">
-                        You can create a profile, login and manage your personal
-                        info, Like Profile Image, Or Bio text
+                        Puedes crear un perfil, loguearte y manegar tu
+                        informacion personal, como tu imagen o biografia.
                       </div>
-                      <h6>Technologies Used:</h6>
+                      <h6>Tecnologias Empleadas:</h6>
                       <div className="card-text features">
                         <div>HTML5</div>
                         <div>CSS3</div>
@@ -400,7 +418,7 @@ class Portfolio extends Component {
                         className="card-link"
                         rel="noreferrer"
                       >
-                        View Repository
+                        Mirar Repositorio
                       </a>
                     </div>
                   </div>
@@ -415,14 +433,13 @@ class Portfolio extends Component {
                         REST API ES10 NodeJs MongoDB{" "}
                         <i className="far fa-star"></i>
                       </h5>
-                      <h6>Features:</h6>
+                      <h6>Destacar:</h6>
                       <div className="card-text mb-2">
-                        See technologies, Add technologies, Update technologies,
-                        Delete technologies, The API is created with the REST
-                        rules, The JavaScript code is transpiled with Babel, and
-                        the data is stored in MongoDB
+                        Mirar, agregar, actualizar y eliminar tecnologias, el
+                        api es REST, el codigo de javascript transpilado con
+                        Babel y los datos almacenados en MongoDB
                       </div>
-                      <h6>Technologies Used:</h6>
+                      <h6>Tecnologias Empleadas:</h6>
                       <div className="card-text features">
                         <div>HTML5</div>
                         <div>CSS3</div>
@@ -446,7 +463,7 @@ class Portfolio extends Component {
                         className="card-link"
                         rel="noreferrer"
                       >
-                        View Repository
+                        Mirar Repositorio
                       </a>
                     </div>
                   </div>
