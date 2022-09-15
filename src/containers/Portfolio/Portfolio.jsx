@@ -19,7 +19,7 @@ class Portfolio extends Component {
                   data-aos-delay="300"
                 >
                   <img
-                    src="/img/gravito-founder.jpeg"
+                    src="/img/gravito-founder.png"
                     alt="Juan Bedoya Profile"
                   />
                   <h3>
@@ -29,7 +29,8 @@ class Portfolio extends Component {
                     <span className="special-color">Gravito.me</span>
                   </h3>
                   <p className="profile-description">
-                    ¡Hey!, Soy desarrollador web con{" "}
+                    ¡Hey!, Soy desarrollador web fullstack (frontend, backend &
+                    devops) con{" "}
                     <span className="text-bold">
                       <b>3 años</b> de experiencia laboral a tiempo completo
                     </span>
@@ -42,9 +43,20 @@ class Portfolio extends Component {
                     <span className="special-color">
                       <b>Javascript</b>
                     </span>
-                    , tambien aplico mis conocimientos de Dev Ops lo que me
-                    permise crear sistema y aportar demasiado valor en areas
-                    como Bussiness Intelligence y Transformacion Digital.
+                    , tambien aplico mis conocimientos de{" "}
+                    <span className="special-color">
+                      <b>Dev Ops</b>
+                    </span>{" "}
+                    lo que me permise crear sistema y aportar demasiado valor en
+                    areas como{" "}
+                    <span className="special-color">
+                      <b>Bussiness Intelligence</b>
+                    </span>{" "}
+                    y{" "}
+                    <span className="special-color">
+                      <b>Transformacion Digital</b>
+                    </span>
+                    .
                   </p>
                   <div>
                     <ul className="social-media">
@@ -77,51 +89,50 @@ class Portfolio extends Component {
                   data-aos-delay="300"
                 >
                   <div className="skill-title">
-                    <p>¿What can we offer to your Company/Startup?:</p>
-                    <h3>Knowledges In</h3>
-                    Labels: <span className="learning-color">Learning</span> -
+                    <p>¿Que podemos ofrecerle a su Compañia/Startup?:</p>
+                    <h3>
+                      Capacidad de implementar cualqueira de estas tecnologias
+                      en los desarrollos
+                    </h3>
+                    Indice: <span className="learning-color">Learning</span> -
                     <span className="normal-color">Normal</span> -
                     <span className="special-color">Special</span>
                   </div>
                   <div className="skills">
-                    <p className="my-2">Web Services</p>
-                    <div className="skill special">AWS</div>
-                    <p className="my-2">Front-End</p>
-                    <div className="skill special">HTML5</div>
-                    <div className="skill special">CSS3</div>
-                    <div className="skill special">JQuery</div>
-                    <div className="skill">Bootstrap 4</div>
-                    <div className="skill special">React</div>
-                    <div className="skill special">Redux</div>
-                    <div className="skill learning">Angular</div>
-                    <div className="skill learning">React Native</div>
+                    <p className="my-2">Control de versiones y DevOps</p>
+                    <div className="skill">AWS</div>
+                    <div className="skill">Git</div>
+                    <div className="skill">GitHub</div>
+                    <p className="my-2">Frontend</p>
+                    <div className="skill">HTML5</div>
+                    <div className="skill">CSS3</div>
+                    <div className="skill">JQuery</div>
+                    <div className="skill">Bootstrap 5</div>
+                    <div className="skill">React</div>
+                    <div className="skill">Redux</div>
+                    <div className="skill">React Native</div>
+                    <div className="skill">Angular</div>
                     <p className="my-2">Back-End</p>
-                    <div className="skill special">JavaScript</div>
-                    <div className="skill learning">Python</div>
-                    <div className="skill">OOP</div>
-                    <div className="skill">MVC</div>
-                    <div className="skill">PHP</div>
-                    <div className="skill special">MeteorJs</div>
-                    <div className="skill special">NodeJS</div>
-                    <div className="skill special">Express</div>
-                    <div className="skill special">API's</div>
-                    <div className="skill special">REST</div>
+                    <div className="skill">JavaScript</div>
+                    <div className="skill">Python</div>
+                    <div className="skill">MeteorJs</div>
+                    <div className="skill">NodeJS</div>
+                    <div className="skill">Express</div>
+                    <div className="skill">API's</div>
+                    <div className="skill">REST</div>
                     <p className="my-2">
                       Module Bundler & JavaScript Transpiler
                     </p>
                     <div className="skill">Webpack</div>
                     <div className="skill">Babel</div>
-                    <p className="my-2">Version Control & Code Hostings</p>
-                    <div className="skill">Git</div>
-                    <div className="skill">GitHub</div>
-                    <p className="my-2">Data Bases</p>
-                    <div className="skill special">SQL</div>
-                    <div className="skill special">MySQL</div>
-                    <div className="skill special">MongoDB</div>
-                    <p className="my-2">Operative Systems</p>
-                    <div className="skill special">Debian</div>
-                    <div className="skill special">Fedora</div>
-                    <div className="skill special">Ubuntu</div>
+                    <p className="my-2">Bases de Datos</p>
+                    <div className="skill">SQL</div>
+                    <div className="skill">MySQL</div>
+                    <div className="skill">MongoDB</div>
+                    <p className="my-2">Sistemas Operativos</p>
+                    <div className="skill">Debian</div>
+                    <div className="skill">Fedora</div>
+                    <div className="skill">Ubuntu</div>
                   </div>
                   <a data-scroll href="#works" className="btn">
                     View my works <i className="fas fa-arrow-down"></i>

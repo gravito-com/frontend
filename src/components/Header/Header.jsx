@@ -74,7 +74,7 @@ class Header extends Component {
                 </h3>
 
                 <h1 className="ah-headline">
-                  <div className="im">¡We offer:</div>
+                  <div className="im">¡Nosotros ofrecemos:</div>
                   {` `}
                   <div className="ah-words-wrapper">
                     <b className="is-visible special-color">
@@ -89,7 +89,7 @@ class Header extends Component {
                   </div>
                 </h1>
                 <a data-scroll href="#about" className="btn">
-                  View about me <i className="fas fa-arrow-down"></i>
+                  Mas informacion <i className="fas fa-arrow-down"></i>
                 </a>
               </div>
             </div>
