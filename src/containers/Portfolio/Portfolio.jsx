@@ -443,11 +443,11 @@ class Portfolio extends Component {
               </div>
             </div>
           </div>
-          <a data-scroll href="#contact" className="btn">
+          {/* <a data-scroll href="#contact" className="btn">
             Contact me <i className="fas fa-arrow-down"></i>
-          </a>
+          </a> */}
         </section>
-        <footer className="contact" id="contact">
+        {/* <footer className="contact" id="contact">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
@@ -540,7 +540,7 @@ class Portfolio extends Component {
               </li>
             </ul>
           </div>
-        </footer>
+        </footer> */}
       </Fragment>
     );
   }
