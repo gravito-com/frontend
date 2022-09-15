@@ -38,7 +38,7 @@ class Portfolio extends Component {
                     Me gusta emplear tecnologias nuevas y sobre todo que me
                     impulse a querer seguir inovando.
                     <br />
-                    Me especializo principalmente en el entorno
+                    Me especializo principalmente en el entorno{" "}
                     <span className="special-color">
                       <b>Javascript</b>
                     </span>
