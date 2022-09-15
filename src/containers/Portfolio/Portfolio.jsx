@@ -23,8 +23,9 @@ class Portfolio extends Component {
                     alt="Juan Bedoya Image Profile"
                   />
                   <h3>
-                    Juan Bedoya, Founder of{" "}
-                    <span className="special-color">Gravito Services</span>
+                    Juan Bedoya
+                    <br />
+                    Founder of <span className="special-color">Gravito.me</span>
                   </h3>
                   <p className="profile-description">
                     ¡Hi!, I'm a full stack developer with{" "}
@@ -36,7 +37,7 @@ class Portfolio extends Component {
                     <br />I like the moderns technologies and I'm in the way of
                     the full stack developers, more than anything with the
                     <span className="special-color">
-                      <b>Javascript</b>
+                      <b>Javascript</b>{" "}
                     </span>
                     environment.
                   </p>
@@ -129,7 +130,7 @@ class Portfolio extends Component {
               Projects with <i className="far fa-star"></i>, Are ready
             </p>
             <p className="bold">
-              My
+              My{" "}
               <a
                 href="https://github.com/Extibax"
                 target="_blank"
@@ -138,7 +139,7 @@ class Portfolio extends Component {
                 style={{ textDecoration: "underline" }}
               >
                 GitHub Portfolio
-              </a>
+              </a>{" "}
               will always be more updated
             </p>
 

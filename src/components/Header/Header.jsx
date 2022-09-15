@@ -68,7 +68,7 @@ class Header extends Component {
                     className="special-color"
                     style={{ textDecoration: "underline" }}
                   >
-                    gravito.me
+                    Gravito.me
                   </span>
                   !
                 </h3>
