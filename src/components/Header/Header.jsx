@@ -16,7 +16,7 @@ class Header extends Component {
             >
               <div className="container">
                 <a className="navbar-brand" href="#home">
-                  EXTIBAX
+                  GRAVITO
                 </a>
                 <button
                   className="navbar-toggler"
@@ -63,24 +63,30 @@ class Header extends Component {
               <div id="particles-js"></div>
               <div className="landing-text">
                 <h3>
-                  ¡Hello World, I'm{` `}
+                  ¡Hello World, We're{` `}
                   <span
                     className="special-color"
                     style={{ textDecoration: "underline" }}
                   >
-                    Juan Bedoya
+                    gravito.me
                   </span>
                   !
                 </h3>
 
                 <h1 className="ah-headline">
-                  <span className="im">¡I'm</span>
+                  <div className="im">¡We offer:</div>
                   {` `}
-                  <span className="ah-words-wrapper">
-                    <b className="is-visible">BackEnd Developer!</b>
-                    <b>FrontEnd Developer!</b>
-                    <b className="special-color">Full Stack Developer!</b>
-                  </span>
+                  <div className="ah-words-wrapper">
+                    <b className="is-visible special-color">
+                      ROI Marketing Services<span>!</span>
+                    </b>
+                    <b className="special-color">
+                      SaaS<span>!</span>
+                    </b>
+                    <b className="special-color">
+                      Facebook Ads<span>!</span>
+                    </b>
+                  </div>
                 </h1>
                 <a data-scroll href="#about" className="btn">
                   View about me <i className="fas fa-arrow-down"></i>

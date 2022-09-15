@@ -45,7 +45,12 @@ body {
     background-color: #FFF !important;
 }
 
+.navbar-brand {
+    color: #af0000;
+}
+
 .navbar-brand:hover {
+    color: #af0000;
     text-decoration: underline;
 }
 

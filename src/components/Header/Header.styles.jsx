@@ -22,4 +22,19 @@ export const HeaderStyles = styled.div`
   /* @media only screen and (min-device-width: 900px) {
     
   } */
+
+  .ah-headline {
+    /* display: flex; */
+    /* justify-items: center;
+    align-items: center; */
+  }
+
+  .im {
+    /* padding: 0 !important; */
+    /* box-sizing: border-box; */
+  }
+
+  .special-color span {
+    color: #fff;
+  }
 `;
