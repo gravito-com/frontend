@@ -108,9 +108,9 @@ class Portfolio extends Component {
                       Capacidad de implementar cualqueira de estas tecnologias
                       en los desarrollos
                     </h3>
-                    {/* Indice: <span className="learning-color">Learning</span> - */}
+                    {/* Indice: <span className="learning-color">Learning</span> -
                     <span className="normal-color">Normal</span> -
-                    <span className="special-color">Special</span>
+                    <span className="special-color">Special</span> */}
                   </div>
                   <div className="skills">
                     <p className="my-2">Control de versiones y DevOps</p>
