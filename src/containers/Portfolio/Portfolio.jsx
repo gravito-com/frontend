@@ -19,40 +19,50 @@ class Portfolio extends Component {
                   data-aos-delay="300"
                 >
                   <img
-                    src="/img/JuanBedoya.jpg"
-                    alt="Juan Bedoya Image Profile"
+                    src="/img/gravito-founder.jpeg"
+                    alt="Juan Bedoya Profile"
                   />
                   <h3>
-                    Juan Bedoya
+                    <span className="diff-class">Juan Bedoya</span>
                     <br />
-                    Founder of <span className="special-color">Gravito.me</span>
+                    Fundador de{" "}
+                    <span className="special-color">Gravito.me</span>
                   </h3>
                   <p className="profile-description">
-                    ¡Hi!, I'm a full stack developer with{" "}
+                    ¡Hey!, Soy desarrollador web con{" "}
                     <span className="text-bold">
-                      <b>3 years</b> of professional experience as a full-time
-                      developer
+                      <b>3 años</b> de experiencia laboral a tiempo completo
                     </span>
                     . <br />
-                    <br />I like the moderns technologies and I'm in the way of
-                    the full stack developers, more than anything with the
+                    <br />
+                    Me gusta emplear tecnologias nuevas y sobre todo que me
+                    impulse a querer seguir inovando.
+                    <br />
+                    Me especializo principalmente en el entorno
                     <span className="special-color">
-                      <b>Javascript</b>{" "}
+                      <b>Javascript</b>
                     </span>
-                    environment.
+                    , tambien aplico mis conocimientos de Dev Ops lo que me
+                    permise crear sistema y aportar demasiado valor en areas
+                    como Bussiness Intelligence y Transformacion Digital.
                   </p>
                   <div>
                     <ul className="social-media">
                       <li className="linkedin-link">
                         <a
-                          href="https://www.linkedin.com/in/extibax/"
+                          href="https://www.linkedin.com/in/juan-gravito-me/"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <i className="fab fa-linkedin"></i>
                         </a>
                       </li>
                       <li className="github-link">
-                        <a href="https://github.com/Extibax" target="_blank">
+                        <a
+                          href="https://github.com/Extibax"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           <i className="fab fa-github-square"></i>
                         </a>
                       </li>
@@ -185,6 +195,7 @@ class Portfolio extends Component {
                         href="https://github.com/Extibax/REST-API-NodeJs-MySQL"
                         target="_blank"
                         className="card-link"
+                        rel="noreferrer"
                       >
                         View Repository
                       </a>
@@ -192,6 +203,7 @@ class Portfolio extends Component {
                         href="https://eprezto.com/"
                         target="_blank"
                         className="card-link"
+                        rel="noreferrer"
                       >
                         View Production Web
                       </a>
@@ -234,6 +246,7 @@ class Portfolio extends Component {
                         href="https://github.com/Extibax/To-Do-JQuery-PHP"
                         target="_blank"
                         className="card-link"
+                        rel="noreferrer"
                       >
                         View Repository
                       </a>
@@ -288,6 +301,7 @@ class Portfolio extends Component {
                         href="https://github.com/Extibax/Customizable-Portfolio"
                         target="_blank"
                         className="card-link"
+                        rel="noreferrer"
                       >
                         View Repository
                       </a>
@@ -332,6 +346,7 @@ class Portfolio extends Component {
                         href="https://github.com/Extibax/Login-NodeJs-MySQL-PassportJs"
                         target="_blank"
                         className="card-link"
+                        rel="noreferrer"
                       >
                         View Repository
                       </a>
@@ -372,6 +387,7 @@ class Portfolio extends Component {
                         href="https://github.com/Extibax/Profile-Manager-PHP-JQuery"
                         target="_blank"
                         className="card-link"
+                        rel="noreferrer"
                       >
                         View Repository
                       </a>
@@ -417,6 +433,7 @@ class Portfolio extends Component {
                         href="https://github.com/Extibax/REST-API-NodeJs-MongoDB"
                         target="_blank"
                         className="card-link"
+                        rel="noreferrer"
                       >
                         View Repository
                       </a>
@@ -486,11 +503,15 @@ class Portfolio extends Component {
           <div className="footer-info">
             <div className="copyright">
               &copy; All Right Reserved By
-              <a href="http://extibax.com/" target="_blank">
+              <a href="http://extibax.com/" target="_blank" rel="noreferrer">
                 Extibax inc
               </a>{" "}
               & Licenced by
-              <a href="https://opensource.org/licenses/MIT" target="_blank">
+              <a
+                href="https://opensource.org/licenses/MIT"
+                target="_blank"
+                rel="noreferrer"
+              >
                 MIT
               </a>
               Web maked by Juan Bedoya (Extibax)
@@ -500,12 +521,20 @@ class Portfolio extends Component {
             </div>
             <ul className="social-media">
               <li className="linkedin-l ink">
-                <a href="https://www.linkedin.com/in/extibax/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/extibax/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fab fa-linkedin"></i>
                 </a>
               </li>
               <li className="github-link">
-                <a href="https://github.com/Extibax" target="_blank">
+                <a
+                  href="https://github.com/Extibax"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fab fa-github-square"></i>
                 </a>
               </li>

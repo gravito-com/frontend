@@ -16,7 +16,7 @@ class Header extends Component {
             >
               <div className="container">
                 <a className="navbar-brand" href="#home">
-                  GRAVITO
+                  GRAVITO.ME
                 </a>
                 <button
                   className="navbar-toggler"
@@ -40,20 +40,20 @@ class Header extends Component {
                       className="nav-item nav-link active"
                       href="#home"
                     >
-                      Home
+                      Inicio
                     </a>
                     <a data-scroll className="nav-item nav-link" href="#about">
-                      About
+                      Acerca de nosotros
                     </a>
                     <a data-scroll className="nav-item nav-link" href="#works">
-                      Works
+                      Proyectos desarrollados
                     </a>
                     <a
                       data-scroll
                       className="nav-item nav-link"
                       href="#contact"
                     >
-                      Contact
+                      Contacto
                     </a>
                   </div>
                 </div>
@@ -65,7 +65,7 @@ class Header extends Component {
                 <h3>
                   ¡Hello World, We're{` `}
                   <span
-                    className="special-color"
+                    className="special-color secondary-color"
                     style={{ textDecoration: "underline" }}
                   >
                     Gravito.me
