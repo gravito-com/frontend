@@ -63,7 +63,7 @@ class Header extends Component {
               <div id="particles-js"></div>
               <div className="landing-text">
                 <h3>
-                  ¡Hello World, We're{` `}
+                  Hola mundo, somos {` `}
                   <span
                     className="special-color secondary-color"
                     style={{ textDecoration: "underline" }}

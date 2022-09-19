@@ -3,14 +3,14 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 /* Components */
-import Portfolio from "../Portfolio/Portfolio";
+import { SpacePortfolio } from "../SpacePortfolio/SpacePortfolio";
 import Admin from "../Admin/Admin";
 
 class AppRoutes extends Component {
   render() {
     return (
       <Routes>
-        <Route exact path="/" element={<Portfolio />} />
+        <Route path="/" element={<SpacePortfolio />} />
         <Route path="/admin/*" element={<Admin />} />
       </Routes>
     );
