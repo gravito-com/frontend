@@ -41,26 +41,26 @@ export const Contact = ({ refProp }) => {
 
     setButtonText("Enviando...");
 
+    if (formDetails.email && formDetails.message) {
+      let response = await fetch("https://ahh4cvlyhe.execute-api.us-east-1.amazonaws.com/dev/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json;charset=utf-8",
+        },
+        body: JSON.stringify({ to_email: formDetails.email, subject: formDetails.subject, message: formDetails.message }),
+      });
 
+      setButtonText("Enviar");
 
-    let response = await fetch("https://ahh4cvlyhe.execute-api.us-east-1.amazonaws.com/dev/send-email", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify({ to_email: formDetails.email, subject: formDetails.subject, message: formDetails.message }),
-    });
+      let result = await response.json();
 
-    setButtonText("Enviar");
+      setFormDetails(form_initial_details);
 
-    let result = await response.json();
-
-    setFormDetails(form_initial_details);
-
-    if (result.status == 200) {
-      setStatus({ succes: true, message: 'Mensaje enviado satisfactoriamente,' });
-    } else {
-      setStatus({ succes: false, message: 'Algo fallo, intenta mas tarde.' });
+      if (result.status == 200) {
+        setStatus({ succes: true, message: 'Mensaje enviado satisfactoriamente,' });
+      } else {
+        setStatus({ succes: false, message: 'Algo fallo, intenta mas tarde.' });
+      }
     }
   };
 
