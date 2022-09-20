@@ -1,8 +1,13 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+
+/* Images */
+import contactImg from "../../assets/img/contact-img.svg";
+/* Styles */
+/* import ContactStyles from "./Contact.styles.jsx" */
+import "./Contact.styles.css"
 
 export const Contact = () => {
   const form_initial_details = {
@@ -83,7 +88,7 @@ export const Contact = () => {
                       <Col size={12} className="px-1">
                         <textarea rows="6" value={formDetails.message} placeholder="Mensaje" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
                         <Col size={12} sm={12} className="px-1">
-                          {status.message && <p className={status.success === false ? "danger" : "success"}>{status.message}</p>}
+                          {status.message && <p className={status.success === false ? "exti-danger" : "exti-success"}>{status.message}</p>}
                         </Col>
                         <button type="submit"><span>{buttonText}</span></button>
                       </Col>

@@ -1,0 +1,9 @@
+p.exti-success,
+p.exti-danger {
+    color: #000 !important;
+  font-weight: bold !important;
+}
+
+p.exti-danger {
+  color: #fff !important;
+}
