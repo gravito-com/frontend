@@ -19,9 +19,9 @@ export const SpacePortfolio = () => {
       <NavBar />
       <Banner />
       <Skills />
-      <Projects />
+      {/* <Projects /> */}
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

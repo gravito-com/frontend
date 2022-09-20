@@ -9,10 +9,10 @@ export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
-  const [delta, setDelta] = useState(300 - Math.random() * 100);
+  const [delta, setDelta] = useState(300 - Math.random() * 300);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
-  const period = 2000;
+  const toRotate = ["ROI Marketing Service", "SaaS"];
+  const period = 1000;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -56,8 +56,8 @@ export const Banner = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Bienvenido a Gravito.me</span>
-                  <h1>{`Hola! somos Gravito.me`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Digital Agency", "SaaS", "ROI Marketing Services" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <h1>{`Hola! somos Gravito.me, ofrecemos:`} <span className="txt-rotate" style={{ color: "#AF0000" }} data-rotate='[ "Digital Agency", "SaaS", "ROI Marketing Services" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>Somos <b>la agencia digital</b> que se encargara de su desarrollo web y marketing digital que <b>impulsará tu negocio</b>. Consigue <b>clientes potenciales</b>, vende tus productos e impulsa <b>tu marca</b> con <b>Gravito.me</b></p>
                   <button onClick={() => console.log('connect')}>Dinos que necesitas tú <ArrowRightCircle size={25} /></button>
                 </div>}
             </TrackVisibility>
