@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -6,10 +6,9 @@ import TrackVisibility from 'react-on-screen';
 /* Images */
 import contactImg from "../../assets/img/contact-img.svg";
 /* Styles */
-/* import ContactStyles from "./Contact.styles.jsx" */
 import "./Contact.styles.css"
 
-export const Contact = () => {
+export const Contact = ({ refProp }) => {
   const form_initial_details = {
     fullname: '',
     email: '',
@@ -19,6 +18,16 @@ export const Contact = () => {
   const [formDetails, setFormDetails] = useState(form_initial_details);
   const [buttonText, setButtonText] = useState('Enviar');
   const [status, setStatus] = useState({});
+
+  useEffect(() => {
+    console.log("component mounted 1")
+    return () => {
+      console.log("component mounted 2")
+    }
+  }, [() => {
+    console.log("component mounted 3")
+  }])
+
 
   const onFormUpdate = (category, value) => {
     setFormDetails({
@@ -56,7 +65,7 @@ export const Contact = () => {
   };
 
   return (
-    <section className="contact" id="connect">
+    <section className="contact" id="connect" ref={refProp}>
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>

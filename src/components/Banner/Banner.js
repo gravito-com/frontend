@@ -1,11 +1,13 @@
+import 'animate.css';
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
-import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Banner = () => {
+/* Images */
+import headerImg from "../../assets/img/header-img.svg";
+
+export const Banner = ({ refProp }) => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
@@ -47,6 +49,12 @@ export const Banner = () => {
     }
   }
 
+  const executeScroll = () => refProp.current.scrollIntoView()
+
+  const onClickTellUs = () => {
+    executeScroll()
+  }
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -58,7 +66,7 @@ export const Banner = () => {
                   <span className="tagline">Bienvenido a Gravito.me</span>
                   <h1>{`Hola! somos Gravito.me, ofrecemos:`} <span className="txt-rotate" style={{ color: "#AF0000" }} data-rotate='[ "Digital Agency", "SaaS", "ROI Marketing Services" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Somos <b>la agencia digital</b> que se encargara de su desarrollo web y marketing digital que <b>impulsará tu negocio</b>. Consigue <b>clientes potenciales</b>, vende tus productos e impulsa <b>tu marca</b> con <b>Gravito.me</b></p>
-                  <button onClick={() => console.log('connect')}>Dinos que necesitas tú <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => { onClickTellUs() }}>Dinos que necesitas tú <ArrowRightCircle size={25} /></button>
                 </div>}
             </TrackVisibility>
           </Col>
